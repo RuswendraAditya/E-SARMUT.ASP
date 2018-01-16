@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SarmutDataSet" targetNamespace="http://tempuri.org/SarmutDataSet.xsd" xmlns:mstns="http://tempuri.org/SarmutDataSet.xsd" xmlns="http://tempuri.org/SarmutDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="koneksi" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="koneksi (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.koneksi.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SarmutDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="SarmutDataSet" msprop:Generator_UserDSName="SarmutDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TableSarmut" msprop:Generator_TableClassName="TableSarmutDataTable" msprop:Generator_TableVarName="tableTableSarmut" msprop:Generator_TablePropName="TableSarmut" msprop:Generator_RowDeletingName="TableSarmutRowDeleting" msprop:Generator_RowChangingName="TableSarmutRowChanging" msprop:Generator_RowEvHandlerName="TableSarmutRowChangeEventHandler" msprop:Generator_RowDeletedName="TableSarmutRowDeleted" msprop:Generator_UserTableName="TableSarmut" msprop:Generator_RowChangedName="TableSarmutRowChanged" msprop:Generator_RowEvArgName="TableSarmutRowChangeEvent" msprop:Generator_RowClassName="TableSarmutRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dt_period" msprop:Generator_ColumnVarNameInTable="columndt_period" msprop:Generator_ColumnPropNameInRow="dt_period" msprop:Generator_ColumnPropNameInTable="dt_periodColumn" msprop:Generator_UserColumnName="dt_period" type="xs:string" minOccurs="0" />
+              <xs:element name="vc_nama_sarmut" msprop:Generator_ColumnVarNameInTable="columnvc_nama_sarmut" msprop:Generator_ColumnPropNameInRow="vc_nama_sarmut" msprop:Generator_ColumnPropNameInTable="vc_nama_sarmutColumn" msprop:Generator_UserColumnName="vc_nama_sarmut" type="xs:string" minOccurs="0" />
+              <xs:element name="dt_effective_start_date" msprop:Generator_ColumnVarNameInTable="columndt_effective_start_date" msprop:Generator_ColumnPropNameInRow="dt_effective_start_date" msprop:Generator_ColumnPropNameInTable="dt_effective_start_dateColumn" msprop:Generator_UserColumnName="dt_effective_start_date" type="xs:string" minOccurs="0" />
+              <xs:element name="VC_n_gugus" msprop:Generator_ColumnVarNameInTable="columnvc_n_gugus" msprop:Generator_ColumnPropNameInRow="vc_n_gugus" msprop:Generator_ColumnPropNameInTable="vc_n_gugusColumn" msprop:Generator_UserColumnName="VC_n_gugus" type="xs:string" minOccurs="0" />
+              <xs:element name="bt_hasil" msprop:Generator_ColumnVarNameInTable="columnbt_hasil" msprop:Generator_ColumnPropNameInRow="bt_hasil" msprop:Generator_ColumnPropNameInTable="bt_hasilColumn" msprop:Generator_UserColumnName="bt_hasil" type="xs:string" minOccurs="0" />
+              <xs:element name="vc_note_pencapaian" msprop:Generator_ColumnVarNameInTable="columnvc_note_pencapaian" msprop:Generator_ColumnPropNameInRow="vc_note_pencapaian" msprop:Generator_ColumnPropNameInTable="vc_note_pencapaianColumn" msprop:Generator_UserColumnName="vc_note_pencapaian" type="xs:string" minOccurs="0" />
+              <xs:element name="dc_pencapaian" msprop:Generator_ColumnVarNameInTable="columndc_pencapaian" msprop:Generator_ColumnPropNameInRow="dc_pencapaian" msprop:Generator_ColumnPropNameInTable="dc_pencapaianColumn" msprop:Generator_UserColumnName="dc_pencapaian" type="xs:string" minOccurs="0" />
+              <xs:element name="pejabat" msprop:Generator_ColumnVarNameInTable="columnpejabat" msprop:Generator_ColumnPropNameInRow="pejabat" msprop:Generator_ColumnPropNameInTable="pejabatColumn" msprop:Generator_UserColumnName="pejabat" type="xs:string" minOccurs="0" />
+              <xs:element name="approver" msprop:Generator_ColumnVarNameInTable="columnapprover" msprop:Generator_ColumnPropNameInRow="approver" msprop:Generator_ColumnPropNameInTable="approverColumn" msprop:Generator_UserColumnName="approver" type="xs:string" minOccurs="0" />
+              <xs:element name="vc_masalah" msprop:Generator_ColumnVarNameInTable="columnvc_masalah" msprop:Generator_ColumnPropNameInRow="vc_masalah" msprop:Generator_ColumnPropNameInTable="vc_masalahColumn" msprop:Generator_UserColumnName="vc_masalah" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TableSarmutTrend" msprop:Generator_TableClassName="TableSarmutTrendDataTable" msprop:Generator_TableVarName="tableTableSarmutTrend" msprop:Generator_TablePropName="TableSarmutTrend" msprop:Generator_RowDeletingName="TableSarmutTrendRowDeleting" msprop:Generator_RowChangingName="TableSarmutTrendRowChanging" msprop:Generator_RowEvHandlerName="TableSarmutTrendRowChangeEventHandler" msprop:Generator_RowDeletedName="TableSarmutTrendRowDeleted" msprop:Generator_UserTableName="TableSarmutTrend" msprop:Generator_RowChangedName="TableSarmutTrendRowChanged" msprop:Generator_RowEvArgName="TableSarmutTrendRowChangeEvent" msprop:Generator_RowClassName="TableSarmutTrendRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="period" msprop:Generator_ColumnVarNameInTable="columnPeriod" msprop:Generator_ColumnPropNameInRow="Period" msprop:Generator_ColumnPropNameInTable="PeriodColumn" msprop:Generator_UserColumnName="period" type="xs:string" minOccurs="0" />
+              <xs:element name="target" msprop:Generator_ColumnVarNameInTable="columntarget" msprop:Generator_ColumnPropNameInRow="target" msprop:Generator_ColumnPropNameInTable="targetColumn" msprop:Generator_UserColumnName="target" type="xs:string" minOccurs="0" />
+              <xs:element name="pencapaian" msprop:Generator_ColumnVarNameInTable="columnpencapaian" msprop:Generator_ColumnPropNameInRow="pencapaian" msprop:Generator_ColumnPropNameInTable="pencapaianColumn" msprop:Generator_UserColumnName="pencapaian" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TableSarmutTindakan" msprop:Generator_TableClassName="TableSarmutTindakanDataTable" msprop:Generator_TableVarName="tableTableSarmutTindakan" msprop:Generator_TablePropName="TableSarmutTindakan" msprop:Generator_RowDeletingName="TableSarmutTindakanRowDeleting" msprop:Generator_RowChangingName="TableSarmutTindakanRowChanging" msprop:Generator_RowEvHandlerName="TableSarmutTindakanRowChangeEventHandler" msprop:Generator_RowDeletedName="TableSarmutTindakanRowDeleted" msprop:Generator_UserTableName="TableSarmutTindakan" msprop:Generator_RowChangedName="TableSarmutTindakanRowChanged" msprop:Generator_RowEvArgName="TableSarmutTindakanRowChangeEvent" msprop:Generator_RowClassName="TableSarmutTindakanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="vc_nama_tindakan" msprop:Generator_ColumnVarNameInTable="columnvc_nama_tindakan" msprop:Generator_ColumnPropNameInRow="vc_nama_tindakan" msprop:Generator_ColumnPropNameInTable="vc_nama_tindakanColumn" msprop:Generator_UserColumnName="vc_nama_tindakan" type="xs:string" minOccurs="0" />
+              <xs:element name="vc_pic" msprop:Generator_ColumnVarNameInTable="columnvc_pic" msprop:Generator_ColumnPropNameInRow="vc_pic" msprop:Generator_ColumnPropNameInTable="vc_picColumn" msprop:Generator_UserColumnName="vc_pic" type="xs:string" minOccurs="0" />
+              <xs:element name="dt_duedate" msprop:Generator_ColumnVarNameInTable="columndt_duedate" msprop:Generator_ColumnPropNameInRow="dt_duedate" msprop:Generator_ColumnPropNameInTable="dt_duedateColumn" msprop:Generator_UserColumnName="dt_duedate" type="xs:string" minOccurs="0" />
+              <xs:element name="vc_status" msprop:Generator_ColumnVarNameInTable="columnvc_status" msprop:Generator_ColumnPropNameInRow="vc_status" msprop:Generator_ColumnPropNameInTable="vc_statusColumn" msprop:Generator_UserColumnName="vc_status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

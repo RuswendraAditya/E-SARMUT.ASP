@@ -1,0 +1,42 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeFile="MasterPageBlank.master.vb" Inherits="MasterPage" %>
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sasaran Mutu Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .myLogo { padding: 7px; }
+    
+</style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+   <nav class="navbar navbar-inverse navbar-fixed-top" role="banner"  style="background-color:#f9f9f9">
+     <div class="container">
+    <div class="navbar-header">
+       
+      <a class="navbar-brand myLogo" href="#"><img src="Images/logo_bethesda.jpg" style="height: 38px; width: 70px;opacity:0.6; filter:alpha(opacity=40);"/></a>&nbsp;
+        
+             <a class="navbar-brand" id="brand" href="/" title="E-Sarmut" style="font-family: Verdana; font-weight: bolder; font-size: 20px;">Sasaran Mutu Online <span style="color:#f9f9f9;font-weight:200;"></span></a>
+        </div>
+         </div>
+  
+</nav>
+ <br /><br />
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>
